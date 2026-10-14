@@ -14,3 +14,8 @@ def install_libs(libs):
             print(f"✔️ {lib} pronta.")
         except subprocess.CalledProcessError:
             print(f"❌ Falha ao tentar instalar {lib}.")
+
+
+def install_missing_libs(libs):
+    """Compatibility name used by notebooks for installing libraries."""
+    install_libs(libs)
