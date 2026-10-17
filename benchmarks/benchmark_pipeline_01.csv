@@ -1,0 +1,21 @@
+ID_Teste,Real,Predicao_IA,Qtd_Bolhas,Vapor_%,Acao_Sugerida,Latencia_ms
+0,Incubação,Incubação,6,0.02,NORMAL: Incubação inicial. Manter operação.,230.74
+1,Incubação,Incubação,7,0.03,NORMAL: Incubação inicial. Manter operação.,127.69
+2,Incubação,Incubação,147,2.91,NORMAL: Incubação inicial. Manter operação.,133.02
+3,Expulsão,Expulsão,255,4.11,ALERTA ALTO: Expulsão detectada. Aumentar fluxo da bomba.,128.66
+4,Expulsão,Expulsão,381,11.23,ALERTA ALTO: Expulsão detectada. Aumentar fluxo da bomba.,150.97
+5,Expulsão,Incubação,398,6.46,NORMAL: Incubação inicial. Manter operação.,131.33
+6,Expulsão,Expulsão,171,4.96,ALERTA ALTO: Expulsão detectada. Aumentar fluxo da bomba.,136.37
+7,Incubação,Incubação,16,0.15,NORMAL: Incubação inicial. Manter operação.,109.11
+8,Expulsão,Expulsão,190,3.66,ALERTA ALTO: Expulsão detectada. Aumentar fluxo da bomba.,131.01
+9,Expulsão,Expulsão,464,8.23,ALERTA ALTO: Expulsão detectada. Aumentar fluxo da bomba.,130.45
+10,Expulsão,Expulsão,293,4.26,ALERTA ALTO: Expulsão detectada. Aumentar fluxo da bomba.,129.42
+11,Expulsão,Expulsão,278,4.56,ALERTA ALTO: Expulsão detectada. Aumentar fluxo da bomba.,127.56
+12,Incubação,Expulsão,369,6.49,ALERTA ALTO: Expulsão detectada. Aumentar fluxo da bomba.,129.07
+13,Expulsão,Expulsão,140,2.94,ALERTA ALTO: Expulsão detectada. Aumentar fluxo da bomba.,120.34
+14,Incubação,Incubação,10,0.05,NORMAL: Incubação inicial. Manter operação.,141.58
+15,Expulsão,Expulsão,421,6.64,ALERTA ALTO: Expulsão detectada. Aumentar fluxo da bomba.,120.0
+16,Incubação,Incubação,129,1.55,NORMAL: Incubação inicial. Manter operação.,108.5
+17,Incubação,Incubação,456,9.67,NORMAL: Incubação inicial. Manter operação.,133.79
+18,Expulsão,Expulsão,362,5.64,ALERTA ALTO: Expulsão detectada. Aumentar fluxo da bomba.,130.74
+19,Expulsão,Expulsão,372,6.04,ALERTA ALTO: Expulsão detectada. Aumentar fluxo da bomba.,141.25

@@ -1,3 +1,4 @@
 __pycache__/
 configs_scripts/
 .vscode/
+*.pt
