@@ -1,0 +1,21 @@
+ID_Teste,Real,Predicao_ResNet,Acao_Sugerida,Latencia_ms
+0,Incubação,Incubação,NORMAL: Escoamento térmico estabilizado.,350.25
+1,Incubação,Incubação,NORMAL: Escoamento térmico estabilizado.,178.98
+2,Incubação,Incubação,NORMAL: Escoamento térmico estabilizado.,200.97
+3,Expulsão,Incubação,NORMAL: Escoamento térmico estabilizado.,184.62
+4,Expulsão,Incubação,ATENÇÃO: Nucleação excessiva detectada (turbulência alta). Reduzir potência do reator em 10%.,178.94
+5,Expulsão,Incubação,ATENÇÃO: Nucleação excessiva detectada (turbulência alta). Reduzir potência do reator em 10%.,185.94
+6,Expulsão,Incubação,NORMAL: Escoamento térmico estabilizado.,193.3
+7,Incubação,Incubação,NORMAL: Escoamento térmico estabilizado.,196.49
+8,Expulsão,Incubação,NORMAL: Escoamento térmico estabilizado.,184.37
+9,Expulsão,Incubação,ATENÇÃO: Nucleação excessiva detectada (turbulência alta). Reduzir potência do reator em 10%.,199.93
+10,Expulsão,Incubação,NORMAL: Escoamento térmico estabilizado.,200.1
+11,Expulsão,Incubação,NORMAL: Escoamento térmico estabilizado.,192.81
+12,Incubação,Incubação,ATENÇÃO: Nucleação excessiva detectada (turbulência alta). Reduzir potência do reator em 10%.,374.61
+13,Expulsão,Incubação,NORMAL: Escoamento térmico estabilizado.,222.15
+14,Incubação,Incubação,NORMAL: Escoamento térmico estabilizado.,219.3
+15,Expulsão,Incubação,ATENÇÃO: Nucleação excessiva detectada (turbulência alta). Reduzir potência do reator em 10%.,192.02
+16,Incubação,Incubação,NORMAL: Escoamento térmico estabilizado.,184.51
+17,Incubação,Incubação,ATENÇÃO: Nucleação excessiva detectada (turbulência alta). Reduzir potência do reator em 10%.,185.63
+18,Expulsão,Incubação,ATENÇÃO: Nucleação excessiva detectada (turbulência alta). Reduzir potência do reator em 10%.,181.24
+19,Expulsão,Incubação,ATENÇÃO: Nucleação excessiva detectada (turbulência alta). Reduzir potência do reator em 10%.,190.72
