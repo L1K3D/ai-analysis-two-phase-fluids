@@ -206,7 +206,7 @@ O treinamento da `EfficientNet-B0` corrigida foi executado ao longo de $12\text{
 | **11** | $1\text{ s}$ | $263\text{ ms}$ | $0{,}0050$ | $100{,}00\%$ | $0{,}00054$ | $100{,}00\%$ |
 | **12** | $1\text{ s}$ | $241\text{ ms}$ | $0{,}0018$ | $100{,}00\%$ | $0{,}00041$ | $100{,}00\%$ |
 
-![alt text](/docs/pt_br/pipeline_03/images/figura01_pipeline03.jpg)
+![Figura 1. Pipeline 03](https://raw.githubusercontent.com/L1K3D/ai-analysis-two-phase-fluids/main/docs/pipeline_03/images/figura01_pipeline03.jpg)
 
 Observa-se que a inserção da camada `Rescaling(255.0)` e o travamento das estatísticas de `BatchNormalization` reduziram a perda de validação em **três ordens de grandeza** (de $0{,}20070$ na Época 1 para $4{,}1129 \times 10^{-4}$ na Época 12), consumindo apenas $23\text{ segundos}$ totais de processamento em CPU.
 
@@ -215,7 +215,7 @@ Observa-se que a inserção da camada `Rescaling(255.0)` e o travamento das esta
 ### 5.2. Desempenho Preditivo e Generalização no Lote Massivo de Teste ($N_{\text{teste}} = 70$)
 Submetendo o modelo treinado às $70\text{ imagens}$ inéditas do conjunto de teste ($35$ de *Expulsão* e $35$ de *Incubação*), obteve-se a Matriz de Confusão ilustrada na Figura 2.
 
-![alt text](/docs/pt_br/pipeline_03/images/figura02_pipeline03.jpg)
+![Figura 2. Pipeline 03](https://raw.githubusercontent.com/L1K3D/ai-analysis-two-phase-fluids/main/docs/pipeline_03/images/figura02_pipeline03.jpg)
 
 *(Nota de convenção: Adotando a codificação nativa do dataset em que $y=0$ representa Expulsão e $y=1$ representa Incubação, calculam-se abaixo os indicadores analíticos para ambas as classes e os índices globais).*
 
@@ -269,7 +269,7 @@ A Tabela 3 consolida as estatísticas descritivas das variáveis geométricas, t
 
 A Figura 3 apresenta a evolução temporal da latência média agrupada em blocos sequenciais de $5\text{ testes}$, correlacionada aos picos de utilização de CPU e memória RAM.
 
-![alt text](/docs/pt_br/pipeline_03/images/figura03_pipeline03.jpg)
+![Figura 3. Pipeline 03](https://raw.githubusercontent.com/L1K3D/ai-analysis-two-phase-fluids/main/docs/pipeline_03/images/figura03_pipeline03.jpg)
 
 #### Diagnóstico do Fenômeno de Saturação de Memória (Testes 38 a 46):
 A inspeção cruzada das curvas de telemetria explica com exatidão física o comportamento de cauda longa observado nos dados:
